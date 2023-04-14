@@ -1,8 +1,9 @@
-"use strict";
+import TodoList from "../components/TodoList";
 
-var module1 = require("./App.js");
-var module2 = require("./RecipeTitle.js");
-module.exports = {
-  module1: module1,
-  module2: module2,
-};
+export default function Home() {
+  return (
+    <div className="container">
+      <TodoList />
+    </div>
+  );
+}
