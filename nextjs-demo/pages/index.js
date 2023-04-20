@@ -1,6 +1,5 @@
 import React from "react";
 import App from "@2chaos/webpack_react_todolist";
-
 const TodolistPage = () => {
   return (
     <div>
@@ -9,5 +8,4 @@ const TodolistPage = () => {
     </div>
   );
 };
-TodolistPage.getInitialProps = async function () {};
 export default TodolistPage;
