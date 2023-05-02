@@ -1,12 +1,12 @@
 import React from "react";
 
-import App1, { App2 } from "@2chaos/webpack_react_todolist";
+import App, { TodoListItem } from "@2chaos/webpack_react_todolist";
 const TodolistPage = () => {
   return (
     <div>
-      <App1 />
+      <App />
     </div>
   );
 };
-console.log(App1, App2);
+console.log(App, TodoListItem);
 export default TodolistPage;
